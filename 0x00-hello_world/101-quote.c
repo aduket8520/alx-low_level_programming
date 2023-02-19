@@ -1,11 +1,14 @@
 #include <stdio.h>
-#include <unistd.h>
+
 /**
- * main - entry
- * return: 1
+ * main - the entry point into our program
+ * Description: main is the function where all our code will live
+ * Return: 0 if successful
  */
 int main(void)
 {
-	write(1, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", 59);
+	fprintf(stderr,
+	"and that piece of art is useful\" - Dora Korpar, 2015-10-19\n");
 	return (1);
 }
+
