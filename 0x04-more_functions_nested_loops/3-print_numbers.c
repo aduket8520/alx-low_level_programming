@@ -1,18 +1,16 @@
-#include <stdio.h>
+#include "main.h"
 
-void print_numbers(void);
-
-int main(void) {
-    printf("Printing numbers from 0 to 9:\n");
-    print_numbers();
-    return 0;
-}
-
-void print_numbers(void) 
+/**
+ * print_numbers - print numbers from 0 to 9
+ * Description: It's up there
+ *
+ * Return: nothing
+ */
+void print_numbers(void)
 {
-    for (int i = 0; i < 10; i++) {
-        _putchar(i + '0');
-        _putchar('\n');
-    }
-}
+	char c;
 
+	for (c = '0'; c <= '9'; c++)
+		_putchar(c);
+	_putchar('\n');
+}
