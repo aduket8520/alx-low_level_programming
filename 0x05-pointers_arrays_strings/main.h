@@ -12,5 +12,6 @@ char *_strcpy(char *dest, char *src);
 void rev_string(char *s);
 void puts2(char *str);
 void _puts2(char *str);
+int _atoi(char *s);
 
 #endif
