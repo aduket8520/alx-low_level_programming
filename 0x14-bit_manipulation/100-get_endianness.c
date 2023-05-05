@@ -2,6 +2,7 @@
 
 /**
  * get_endianness - function that checks the endianness.
+ * Return 0 for value of endianess 0 for success
  */
 int get_endianness(void)
 {
